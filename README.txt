@@ -1,0 +1,3 @@
+-Using MinGW c++ compiler
+-In project properties -> C/C++ Build -> Settings -> C++ Compiler -> Includes (we need here SDL include directory containing headers)
+-In project properties -> C/C++ Build -> Settings -> MinGW C++ Linker -> Libraries (Where is /lib of the SDL? )
