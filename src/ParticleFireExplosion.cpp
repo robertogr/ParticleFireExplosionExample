@@ -36,7 +36,6 @@ int main(int argc, char* argv[]) {
 	else
 	{
 		cout << "Window has been created " << endl;
-
 	}
 
 	//2. Create renderer for the window
