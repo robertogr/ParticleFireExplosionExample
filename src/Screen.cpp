@@ -71,7 +71,7 @@ bool Screen::init() {
 	//with menset allocate a portion of memory
 	try {
 		memset(m_buffer, 0x00, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32)); //paint all buffer with 255 (it is the white color)
-	} catch (exception ex) {
+	} catch (exception &ex) {
 		cout << "ERROR in menset: " << ex.what() << endl;
 	}
 	//0xFF is the maximun value can store in a single byte in hexadecimal
@@ -106,16 +106,15 @@ bool Screen::processEvents() {
 		}
 	}
 
-	delete[] m_buffer;
-	//TODO refactor this code
-	SDL_DestroyRenderer(m_renderer);
-	SDL_DestroyTexture(m_texture);
-	SDL_DestroyWindow(m_window);
-	SDL_Quit();
-
 	return true;
 }
 bool Screen::close() {
+	delete[] m_buffer;
+		//TODO refactor this code
+		SDL_DestroyRenderer(m_renderer);
+		SDL_DestroyTexture(m_texture);
+		SDL_DestroyWindow(m_window);
+		SDL_Quit();
 	return true;
 }
 

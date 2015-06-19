@@ -25,9 +25,10 @@
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.1910758366" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.1354177479" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1009715676" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;C:\MinGW\include\SDL2&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;E:\Desarrollo\SDL\SDL2-2.0.3\include&quot;"/>
+									<listOptionValue builtIn="false" value="C:\MinGW\include\SDL2"/>
 								</option>
-								<option id="gnu.cpp.compiler.option.include.files.1568595831" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" valueType="includeFiles"/>
+								<option id="gnu.cpp.compiler.option.include.files.1568595831" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.671935698" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1683716123" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
@@ -45,7 +46,8 @@
 								<option id="gnu.cpp.link.option.other.1178791384" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other"/>
 								<option id="gnu.cpp.link.option.flags.499092726" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-static-libgcc -static-libstdc++" valueType="string"/>
 								<option id="gnu.cpp.link.option.paths.247028585" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;D:\personal\c++\SDL2-2.0.3\lib\x64&quot;"/>
+									<listOptionValue builtIn="false" value="C:\MinGW\lib\SDL2\lib"/>
+									<listOptionValue builtIn="false" value="&quot;E:\Desarrollo\SDL\SDL2-2.0.3\lib\x86&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.338143891" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -85,9 +87,10 @@
 								<option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.365119858" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.815346890" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.1911228626" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;D:\personal\c++\SDL2-2.0.3\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;E:\Desarrollo\SDL\SDL2-2.0.3\include&quot;"/>
+									<listOptionValue builtIn="false" value="C:\MinGW\include\SDL2"/>
 								</option>
-								<option id="gnu.cpp.compiler.option.include.files.680995449" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" useByScannerDiscovery="false" valueType="includeFiles"/>
+								<option id="gnu.cpp.compiler.option.include.files.680995449" name="Include files (-include)" superClass="gnu.cpp.compiler.option.include.files" useByScannerDiscovery="false"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2018750670" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool command="gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GCCErrorParser" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1173487286" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
@@ -98,7 +101,8 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.2122468831" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
 							<tool command="g++" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.1741915818" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
 								<option id="gnu.cpp.link.option.paths.104917169" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;D:\personal\c++\SDL2-2.0.3\i686-w64-mingw32\lib&quot;"/>
+									<listOptionValue builtIn="false" value="C:\MinGW\lib\SDL2\lib"/>
+									<listOptionValue builtIn="false" value="&quot;E:\Desarrollo\SDL\SDL2-2.0.3\lib\x86&quot;"/>
 								</option>
 								<option id="gnu.cpp.link.option.libs.1638920778" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="mingw32"/>

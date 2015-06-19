@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
 
 	while(true)
 	{
-		if(!screen.processEvents())
+		if(screen.processEvents()==false)
 			break;
 	}
 	screen.close();
